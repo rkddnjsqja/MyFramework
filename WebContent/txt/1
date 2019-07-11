@@ -1,0 +1,12 @@
+CREATE TABLE board2(
+	board2_id NUMBER PRIMARY KEY
+	, title varchar2(100)
+	, writer varchar2(40)
+	, content clob
+	, regdate DATE DEFAULT SYSDATE
+	, hit NUMBER DEFAULT 0
+);
+
+CREATE SEQUENCE seq_board2
+INCREMENT BY 1
+START WITH 1;

@@ -1,0 +1,20 @@
+{
+	"controller" : {
+		"/movie.do" : "com.myframework.movie.controller.MovieController",
+		"/blood.do" : "com.myframework.blood.controller.BloodController",
+		"/board/write.do" : "com.myframework.board.controller.WriteController",
+		"/board/list.do" : "com.myframework.board.controller.ListController",
+		"/board/detail.do" : "com.myframework.board.controller.DetailController",
+		"/board/delete.do" : "com.myframework.board.controller.DeleteController",
+		"/board/edit.do" : "com.myframework.board.controller.EditController"
+	},
+	"view":{
+		"/view/movie" : "/movie/movie_view.jsp",
+		"/view/blood" : "/blood/blood_view.jsp",
+		"/view/board/write" : "/board/list.do",
+		"/view/board/list" : "/board/list.jsp",
+		"/view/board/detail" : "/board/detail.jsp",
+		"/view/board/delete" : "/board/list.do",
+		"/view/board/edit" : "/board/detail.jsp"
+	}
+}
